@@ -40,12 +40,22 @@ header nav {
   margin-top: -25px;
   margin-bottom: 50px;
 }
+.hr { 
+    text-align: center;
+    }
 
+.hr img {
+    position: relative;
+    top: -18px;
+    background:white;
+    padding:0 5px;
+    }
 hr {
   width: 960px;
   height: 15px;
   border-style: solid;
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 label {
@@ -55,3 +65,85 @@ label {
     color:black;
     text-decoration: line-through;
   } /*This is the MDN spec for doing this*/
+
+  main {
+      margin-top: 30px;
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  main h1{
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  main h6{
+      color: gray;
+  }
+
+  .alignright{
+      /* display: inline-block; */
+      /* text-align: right; */
+      float: right;
+      margin-top: -20px;
+      /* margin-right: 20px; */
+  }
+
+  #printer{
+      margin-right: 50px;
+  }
+
+  #maincontent{
+      margin-top: 30px;
+  }
+  #maincontent img{
+      width: 960px;
+      margin-bottom: 30px;
+  }
+
+  main p{
+      text-indent: 40px;
+      margin-bottom: 30px;
+  }
+
+  #list {
+    background-image: url("img/list-bg.png");
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+ /* } https://stackoverflow.com/questions/6509106/is-there-a-way-to-break-a-list-into-columns */
+  }
+
+  #headshot{
+      float: left;
+      margin-right: 10px;
+  }
+
+  #bio{
+    text-indent: 0;
+  }
+  #Vanessa{
+    margin-bottom: 5px;
+    font-weight: 800;
+  }
+  button{
+      float: right;
+  }
+
+  footer{
+      text-align: center;
+  }
+
+  #plain{
+      height: 0;
+  }
+  
