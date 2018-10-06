@@ -1,8 +1,9 @@
 header {
   width: 960px;
   height: 100px;
-  margin: auto;
-  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  /* box-sizing: border-box; */
   /* display: inline-block; */
 }
 #Logo {
@@ -34,13 +35,16 @@ header h3 {
 }
 
 header nav {
+  /* display: inline-block; */
   float: right;
-  margin-bottom: 30px;
-
+  margin-top: -25px;
+  margin-bottom: 50px;
 }
 
 hr {
   width: 960px;
+  height: 15px;
+  border-style: solid;
   margin: auto;
 }
 
