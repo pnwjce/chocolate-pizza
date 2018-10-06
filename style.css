@@ -1,0 +1,7 @@
+label{
+  }
+  
+  input[type=checkbox]:checked + label {
+    color:black;
+    text-decoration: line-through;
+  } /*This is the MDN spec for doing this*/
